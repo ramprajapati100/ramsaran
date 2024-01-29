@@ -1,0 +1,8 @@
+data=[(1,'maheer','male',None),(2,'ram',None,'IT'),(3,'kusum','female',None),(4,'reet','female',None)]
+
+schema=['sr_no','name','gender','dep']
+
+df=spark.createDataFrame(data,schema)
+
+df.fillna('unknown',['dep','gender']).show()
+
