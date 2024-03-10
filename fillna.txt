@@ -6,3 +6,5 @@ df=spark.createDataFrame(data,schema)
 
 df.fillna('unknown',['dep','gender']).show()
 
+print("goign to join in cognizant")
+
