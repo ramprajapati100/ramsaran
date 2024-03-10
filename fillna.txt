@@ -8,3 +8,5 @@ df.fillna('unknown',['dep','gender']).show()
 
 print("goign to join in cognizant")
 
+print("not getting the release from deloitte")
+
